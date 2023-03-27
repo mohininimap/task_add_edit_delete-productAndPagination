@@ -1,0 +1,39 @@
+Installing packages =>
+@emotion/react": 11.10.6
+@emotion/styled: 11.10.6
+@material-ui/core": 4.11.4,
+@mui/material: 5.11.12,
+@mui/styles": 5.11.12,
+axios:1.3.4,
+dotenv: 16.0.3,
+react-redux": 8.0.5,
+react-router-dom: 6.8.2,
+redux: 4.2.1,
+redux-logger: 3.0.6,
+redux-thunk:2.4.2,
+-------------
+ @material-ui/core@4.11.4
+
+ ------------------
+-------------------------------
+ * error-> json-server : File C:\Users\hp\AppData\Roaming\npm\json-server.ps1 cannot be loaded because running scripts is disabled on this    
+system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ json-server --watch db.json
+*-> for solving this error
+1)Set-ExecutionPolicy RemoteSigned     
+2)Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+then
+3)For run json server command =>json-server --watch db.json
+--------------
+http://localhost:3000/product
+------------
+To run different port  json-server --watch db.json --port 5000
+
+------------------
+image url=>   "photo":"https://herakoi.com/wp-content/uploads/sites/3/2020/12/dummy-product-09.jpg" 
+-----------
+npm install -g json-server
+---------------
+
+ [...Array(Math.floor(products.length / 10))].map((_, i) => {
